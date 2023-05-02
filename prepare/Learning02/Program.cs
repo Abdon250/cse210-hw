@@ -21,7 +21,7 @@ class Program
         Resume myResume = new Resume(); 
         myResume._name = "Abdon TUYIZERE";
 
-        myResume._Jobs.Add(job1);
+        myResume._jobs.Add(job1);
         myResume._jobs.Add(job2);
 
         myResume.Display();
