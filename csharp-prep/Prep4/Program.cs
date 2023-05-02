@@ -12,7 +12,6 @@ class Program
             Console.Write("Enter a number (0 to quit): ");
             
             string userResponse = Console.ReadLine();
-            userNumber = int.Parse(userResponse);
             
             if (userNumber != 0)
             {
