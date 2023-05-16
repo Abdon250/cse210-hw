@@ -7,7 +7,7 @@ class Program
             Journal journal = new Journal();
             PromptGenerator promptGenerator = new PromptGenerator();
             string fileName;
-            //string fileName = "journal.csv";
+            
             
             while (true)
             {
