@@ -6,7 +6,7 @@ class Program
     static void Main()
     {
         // Create an instance of the Scripture class with a specific reference and text
-        Scripture scripture = new Scripture("John 3:16", "For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life.");
+        Scripture scripture = new Scripture("1 Nephi 1:1", "I, Nephi, having been aborn of bgoodly cparents, therefore I was dtaught somewhat in all the learning of my father; and having seen many eafflictions in the course of my days, nevertheless, having been highly favored of the Lord in all my days; yea, having had a great knowledge of the goodness and the mysteries of God, therefore I make a frecord of my proceedings in my days.");
 
         while (true)
         {

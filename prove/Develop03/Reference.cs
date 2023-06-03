@@ -1,11 +1,11 @@
 class Reference
 {
-    private int _book;
+    private string _book;
     private int _chapter;
     private string _finalVerse;
     private int _initialVerse;
 
-    public void SetBook(int book)
+    public void SetBook(string book)
     {
         _book = book;
     }
@@ -27,6 +27,6 @@ class Reference
 
     public string GetReference()
     {
-        return $"{_book}:{_chapter}:{_initialVerse}-{_finalVerse}";
+        return $"{_book}:{_chapter}:{_initialVerse}";
     }
 }

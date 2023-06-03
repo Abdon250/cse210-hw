@@ -8,7 +8,7 @@ class Scripture
         _words = new List<Word>();
         _reference = new Reference();
 
-        _reference.SetBook(1);
+        _reference.SetBook("1 Nephi");
         _reference.SetChapter(1);
         _reference.SetInitialVerse(1);
         _reference.SetFinalVerse((words.Split(' ').Length - 1).ToString());
